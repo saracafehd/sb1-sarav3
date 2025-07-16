@@ -206,7 +206,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Espresso', en: 'Espresso' }, 
         volume: '30 ml', 
         description: { ro: 'cafea, zahăr, lapte', en: 'coffee, sugar, milk' },
-        price: '5,90 lei',
+        price: '6,90 lei',
         image: '/images/specialitati-din-cafea/espresso.jpg',
         tags: ['non-alcoholic', 'recommended'] 
       },
@@ -214,7 +214,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Espresso lung', en: 'Long Espresso' }, 
         volume: '60 ml', 
         description: { ro: 'cafea, zahăr, lapte', en: 'coffee, sugar, milk' },
-        price: '5,90 lei',
+        price: '6,90 lei',
         image: '/images/specialitati-din-cafea/espresso-lung.jpg',
         tags: ['non-alcoholic'] 
       },
@@ -583,42 +583,42 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Cappy Nectar Portocale', en: 'Cappy Nectar Orange' }, 
         volume: '250 ml', 
-        price: '9,90 lei',
+        price: '10,90 lei',
         image: '/images/bauturi-racoritoare/capy-portocale.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
         name: { ro: 'Cappy Nectar Piersici', en: 'Cappy Nectar Peach' }, 
         volume: '250 ml', 
-        price: '9,90 lei',
+        price: '10,90 lei',
         image: '/images/bauturi-racoritoare/capy-piersici.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
         name: { ro: 'Cappy Nectar Vișine', en: 'Cappy Nectar Sour Cherry' }, 
         volume: '250 ml', 
-        price: '9,90 lei',
+        price: '10,90 lei',
         image: '/images/bauturi-racoritoare/capy-visine.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
         name: { ro: 'Cappy Nectar Pere', en: 'Cappy Nectar Pear' }, 
         volume: '250 ml', 
-        price: '9,90 lei',
+        price: '10,90 lei',
         image: '/images/bauturi-racoritoare/capy-pere.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
         name: { ro: 'Cappy Portocale Roșii', en: 'Cappy Red Orange' }, 
         volume: '250 ml', 
-        price: '9,90 lei',
+        price: '10,90 lei',
         image: '/images/bauturi-racoritoare/capy-portocale-rosii.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
         name: { ro: 'Dorna (carbo / plată)', en: 'Dorna (sparkling / still)' }, 
         volume: '330 ml', 
-        price: '5,90 lei',
+        price: '6,90 lei',
         image: '/images/bauturi-racoritoare/plata-minerala.jpg',
         tags: ['non-alcoholic']
       },
