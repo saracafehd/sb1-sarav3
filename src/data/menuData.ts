@@ -222,7 +222,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Espresso dublu', en: 'Double Espresso' }, 
         volume: '60 ml', 
         description: { ro: 'cafea, zahăr, lapte', en: 'coffee, sugar, milk' },
-        price: '11,80 lei',
+        price: '13,80 lei',
         image: '/images/specialitati-din-cafea/espresso-dublu.jpg',
         tags: ['non-alcoholic'] 
       },
