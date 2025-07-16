@@ -569,14 +569,14 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Fuze Tea Lemon Lemongrass', en: 'Fuze Tea Lemon Lemongrass' }, 
         volume: '250 ml', 
-        price: '9,90 lei',
+        price: '10,90 lei',
         image: '/images/bauturi-racoritoare/fuzetea-lemon.jpg',
         tags: ['non-alcoholic', 'new'] 
       },
       { 
         name: { ro: 'Fuze Tea Peach Hibiscus', en: 'Fuze Tea Peach Hibiscus' }, 
         volume: '250 ml', 
-        price: '9,90 lei',
+        price: '10,90 lei',
         image: '/images/bauturi-racoritoare/fuzetea-piersici.jpg',
         tags: ['non-alcoholic', 'new'] 
       },
