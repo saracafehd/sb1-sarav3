@@ -87,7 +87,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Stella Artois fără alcool', en: 'Stella Artois Non-alcoholic' }, 
         volume: '330 ml', 
-        price: '10,90 lei',
+        price: '11,90 lei',
         image: '/images/bere/stella-fara-alcol.jpg',
         tags: ['non-alcoholic'] 
       },
@@ -95,14 +95,14 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Stella Artois', en: 'Stella Artois' }, 
         volume: '500/330 ml', 
         alcohol: '5.0%', 
-        price: '10,90 lei',
+        price: '11,90 lei',
         image: '/images/bere/stella.jpg'
       },
       { 
         name: { ro: 'Corona', en: 'Corona' }, 
         volume: '335 ml', 
         alcohol: '4.5%', 
-        price: '13,90 lei',
+        price: '16,90 lei',
         image: '/images/bere/corona.jpg',
         tags: ['recommended'] 
       },
