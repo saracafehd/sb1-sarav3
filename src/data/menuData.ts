@@ -848,7 +848,7 @@ export const menuData: MenuSection[] = [
         tags: ['non-alcoholic', 'recommended'] 
       },
       { 
-        name: { ro: 'Portocale + Scorțișoară', en: 'Orange + Cinnamon' }, 
+        name: { ro: 'Aromă Portocale + Scorțișoară', en: 'Orange + Cinnamon' }, 
         volume: '300 ml', 
         description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
         price: '10,90 lei',
@@ -856,7 +856,7 @@ export const menuData: MenuSection[] = [
         tags: ['non-alcoholic'] 
       },
       { 
-        name: { ro: 'Neagră + Alune', en: 'Dark + Nuts' }, 
+        name: { ro: 'Aromă Neagră + Alune', en: 'Dark + Nuts' }, 
         volume: '300 ml', 
         description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
         price: '10,90 lei',
@@ -864,7 +864,7 @@ export const menuData: MenuSection[] = [
         tags: ['non-alcoholic'] 
       },
       { 
-        name: { ro: 'Cocos', en: 'Coconut' }, 
+        name: { ro: 'Aromă Cocos', en: 'Coconut' }, 
         volume: '300 ml', 
         description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
         price: '10,90 lei',
@@ -872,7 +872,7 @@ export const menuData: MenuSection[] = [
         tags: ['non-alcoholic'] 
       },
       { 
-        name: { ro: 'Rom și Praline', en: 'Rum & Praline' }, 
+        name: { ro: 'Aromă Rom și Praline', en: 'Rum & Praline' }, 
         volume: '300 ml', 
         description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
         price: '10,90 lei',
@@ -888,7 +888,7 @@ export const menuData: MenuSection[] = [
         tags: ['non-alcoholic'] 
       },
       { 
-        name: { ro: 'Mentă', en: 'Mint' }, 
+        name: { ro: 'Aromă Mentă', en: 'Mint' }, 
         volume: '300 ml', 
         description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
         price: '10,90 lei',
@@ -896,7 +896,7 @@ export const menuData: MenuSection[] = [
         tags: ['non-alcoholic'] 
       },
       { 
-        name: { ro: 'Neagră + Căpșuni', en: 'Dark + Strawberry' }, 
+        name: { ro: 'Neagră + Aromă Căpșuni', en: 'Dark + Strawberry' }, 
         volume: '300 ml', 
         description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
         price: '10,90 lei',
@@ -904,7 +904,7 @@ export const menuData: MenuSection[] = [
         tags: ['non-alcoholic'] 
       },
       { 
-        name: { ro: 'Albă cu Alune', en: 'White with Nuts' }, 
+        name: { ro: 'Albă cu Aromă Alune', en: 'White with Nuts' }, 
         volume: '300 ml', 
         description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
         price: '10,90 lei',
