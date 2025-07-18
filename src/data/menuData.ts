@@ -856,7 +856,7 @@ export const menuData: MenuSection[] = [
         tags: ['non-alcoholic'] 
       },
       { 
-        name: { ro: 'Aromă Neagră + Alune', en: 'Dark + Nuts' }, 
+        name: { ro: 'Neagră + Aromă Alune', en: 'Dark + Nuts' }, 
         volume: '300 ml', 
         description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
         price: '10,90 lei',
