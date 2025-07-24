@@ -520,49 +520,49 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Coca Cola / Zero', en: 'Coca Cola / Zero' }, 
         volume: '250 ml', 
-        price: '8,90 lei',
+        price: '9,90 lei',
         image: '/images/bauturi-racoritoare/cola-zero.jpg',
         tags: ['non-alcoholic', 'recommended'] 
       },
       { 
         name: { ro: 'Fanta (portocale / madness)', en: 'Fanta (orange / madness)' }, 
         volume: '250 ml', 
-        price: '8,90 lei',
+        price: '9,90 lei',
         image: '/images/bauturi-racoritoare/fanta-orange-madness.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
         name: { ro: 'Sprite', en: 'Sprite' }, 
         volume: '250 ml', 
-        price: '8,90 lei',
+        price: '9,90 lei',
         image: '/images/bauturi-racoritoare/sprite.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
         name: { ro: 'Schweppes Tonic', en: 'Schweppes Tonic' }, 
         volume: '250 ml', 
-        price: '8,90 lei',
+        price: '9,90 lei',
         image: '/images/bauturi-racoritoare/tonic.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
         name: { ro: 'Schweppes Bitter Lemon', en: 'Schweppes Bitter Lemon' }, 
         volume: '250 ml', 
-        price: '8,90 lei',
+        price: '9,90 lei',
         image: '/images/bauturi-racoritoare/lemon-tonic.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
         name: { ro: 'Schweppes Mandarin', en: 'Schweppes Mandarin' }, 
         volume: '250 ml', 
-        price: '8,90 lei',
+        price: '9,90 lei',
         image: '/images/bauturi-racoritoare/schweppes-mandarin.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
         name: { ro: 'Schweppes Pink Tonic', en: 'Schweppes Pink Tonic' }, 
         volume: '250 ml', 
-        price: '8,90 lei',
+        price: '9,90 lei',
         image: '/images/bauturi-racoritoare/pink-tonic.jpg',
         tags: ['non-alcoholic'] 
       },
@@ -632,7 +632,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Suc roșii', en: 'Tomato Juice' }, 
         volume: '330 ml', 
-        price: '8,90 lei',
+        price: '9,90 lei',
         image: '/images/bauturi-racoritoare/suc-rosii.jpg',
         tags: ['non-alcoholic', 'vegan'] 
       }
