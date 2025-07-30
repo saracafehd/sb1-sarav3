@@ -795,9 +795,16 @@ export const menuData: MenuSection[] = [
         tags: ['new']
       },
       { 
-        name: { ro: 'Sandwich cu șuncă și salam', en: 'Ham & Salami Sandwich' }, 
+        name: { ro: 'Sandwich Extra', en: 'Extra Sandwich' }, 
         volume: '200g',
         description: { ro: 'baton, margarină, brânză felii, șuncă, salam uscat, ardei, maioneză', en: 'baguette, margarine, sliced cheese, ham, dry salami, peppers, mayonnaise' },
+        price: '15,00 lei',
+        image: '/images/fast-food/sandwich-extra.jpg'
+      },
+      { 
+        name: { ro: 'Sandwich cu Șunca și Telemea ', en: 'Ham & Telemea sandwich' }, 
+        volume: '200g',
+        description: { ro: 'baton, margarină, telemea, șuncă, maioneză', en: 'baguette, margarine, telemea, ham, mayonnaise' },
         price: '13,00 lei',
         image: '/images/fast-food/sandwich-sunca.jpg'
       },
