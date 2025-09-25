@@ -940,10 +940,10 @@ export const menuData: MenuSection[] = [
         tags: ['recommended'] 
       },
       { 
-        name: { ro: 'Vin Roșu, Alb, Roze', en: 'Red, White, Rosé Wine' }, 
+        name: { ro: 'Castel Huniade', en: 'Castel Huniade' }, 
         volume: '187 ml', 
         price: '12,00 lei',
-        image: '/images/vinuri-sampanie/rosu-alb-roze.jpg'
+        image: '/images/vinuri-sampanie/castel-huniade.jpg'
       },
       { 
         name: { ro: 'Vin Jidvei', en: 'Wine Jidvei' }, 
@@ -970,12 +970,12 @@ export const menuData: MenuSection[] = [
         tags: ['new'] 
       },
       { 
-        name: { ro: 'Vin alb/roșu', en: 'White/Red Wine' }, 
+        name: { ro: 'Vin Roșu, Alb, Roze', en: 'Red, White, Rosé Wine' }, 
         volume: '200 ml', 
         alcohol: '7.0%',
         description: { ro: 'pahar (sec, demi-sec, demi-dulce)', en: 'glass (dry, semi-dry, semi-sweet)' },
         price: '8,90 lei',
-        image: '/images/vinuri-sampanie/alb-rosu.jpg'
+        image: '/images/vinuri-sampanie/rosu-alb-roze.jpg'
       },
       { 
         name: { ro: 'Vin fiert', en: 'Mulled Wine' }, 
