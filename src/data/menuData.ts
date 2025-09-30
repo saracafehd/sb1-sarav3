@@ -782,14 +782,14 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Sandwich porc', en: 'Pork Sandwich' }, 
         volume: '210g',
-        description: { ro: 'șnițel porc, brânză, maioneză, castraveți, margarină, baton', en: 'pork schnitzel, cheese, mayonnaise, pickles, margarine, baguette' },
+        description: { ro: 'șnițel porc, brânză, maioneză, castraveți, margarină, baton; (210G) Valori nutritionale medii 100g produs: Valoare energetica 995 kj/234 kcal', en: 'pork schnitzel, cheese, mayonnaise, pickles, margarine, baguette; (210G) Average nutritional values ​​100g product: Energy value 995 kj/234 kcal' },
         price: '15,00 lei',
         image: '/images/fast-food/sandwich-porc.jpg'
       },
       { 
         name: { ro: 'Sandwich pui cu ciuperci', en: 'Chicken & Mushroom Sandwich' }, 
         volume: '190g',
-        description: { ro: 'piept pui la grătar, șuncă, remouladă, margarină, baton', en: 'grilled chicken breast, ham, remoulade, margarine, baguette' },
+        description: { ro: 'piept pui la grătar, șuncă, remouladă, margarină, baton; (190G) Valori nutritionale medii 100g produs: Valoare energetica 960 kj/225 kcal', en: 'grilled chicken breast, ham, remoulade, margarine, baguette; (190G) Average nutritional values ​​100g product: Energy value 960 kj/225 kcal' },
         price: '15,00 lei',
         image: '/images/fast-food/sandwich-snitel.jpg',
         tags: ['new']
@@ -797,14 +797,14 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Sandwich Extra', en: 'Extra Sandwich' }, 
         volume: '200g',
-        description: { ro: 'baton, margarină, brânză felii, șuncă, salam uscat, ardei, maioneză', en: 'baguette, margarine, sliced cheese, ham, dry salami, peppers, mayonnaise' },
+        description: { ro: 'baton, margarină, brânză felii, șuncă, salam uscat, ardei, maioneză; (205G) Valori nutritionale medii 100g produs: Valoare energetica 1024 kj/245 kcal', en: 'baguette, margarine, sliced cheese, ham, dry salami, peppers, mayonnaise; (205G) Average nutritional values ​​100g product: Energy value 1024 kj/245 kcal' },
         price: '15,00 lei',
         image: '/images/fast-food/sandwich-extra.jpg'
       },
       { 
         name: { ro: 'Sandwich cu Șunca și Telemea ', en: 'Ham & Telemea sandwich' }, 
         volume: '200g',
-        description: { ro: 'baton, margarină, telemea, șuncă, maioneză', en: 'baguette, margarine, telemea, ham, mayonnaise' },
+        description: { ro: 'baton, margarină, telemea, șuncă, maioneză; (205G) Valori nutritionale medii 100g produs: Valoare energetica 1024 kj/245 kcal', en: 'baguette, margarine, telemea, ham, mayonnaise; (205G) Average nutritional values ​​100g product: Energy value 1024 kj/245 kcal' },
         price: '13,00 lei',
         image: '/images/fast-food/sandwich-sunca.jpg'
       },
