@@ -775,8 +775,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Sandwich pui', en: 'Chicken Sandwich' }, 
         volume: '210g',
-        description: { ro: 'șnițel pui, brânză, maioneză, castraveți, margarină, baton. (205G) .Valori nutritionale medii 100g produs: Valoare energetica 970 kj/228 kcal', en: 'chicken schnitzel, cheese, mayonnaise, pickles, margarine, baguette. 
-Average nutritional values ​​100g product: Energy value970 kj228 kcal ' },
+        description: { ro: 'șnițel pui, brânză, maioneză, castraveți, margarină, baton; Valori nutritionale medii 100g produs: Valoare energetica 970 kj/228 kcal', en: 'chicken schnitzel, cheese, mayonnaise, pickles, margarine, baguette' },
         price: '15,00 lei',
         image: '/images/fast-food/sandwich-pui.jpg'
       },
