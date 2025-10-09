@@ -386,7 +386,7 @@ export const menuData: MenuSection[] = [
       },
       { 
         name: { ro: 'Tequila', en: 'Tequila' }, 
-        volume: '50 ml', 
+        volume: '30 ml', 
         alcohol: '40%', 
         price: '7,00 lei',
         image: '/images/bauturi-alcoolice/tequila.jpg'
