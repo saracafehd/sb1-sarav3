@@ -949,7 +949,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Vin Jidvei', en: 'Wine Jidvei' }, 
         volume: '750 ml', 
         description: { ro: 'sec, demi-sec, demi-dulce', en: 'dry, semi-dry, semi-sweet' },
-        price: '44,00 lei',
+        price: '59,00 lei',
         image: '/images/vinuri-sampanie/jidvei.jpg',
         tags: ['recommended'] 
       },
@@ -957,7 +957,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Castel Huniade', en: 'Castel Huniade' }, 
         volume: '750 ml', 
         description: { ro: 'sec, demi-sec, demi-dulce', en: 'dry, semi-dry, semi-sweet' },
-        price: '44,00 lei',
+        price: '59,00 lei',
         image: '/images/vinuri-sampanie/castel-huniade.jpg'
       },
       { 
@@ -1003,7 +1003,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Șampanie', en: 'Champagne' }, 
         volume: '750 ml', 
         alcohol: '10%',
-        price: '44,00 lei',
+        price: '59,00 lei',
         image: '/images/vinuri-sampanie/sampanie.jpg'
       }
     ]
