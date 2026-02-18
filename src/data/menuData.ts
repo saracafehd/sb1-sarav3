@@ -30,7 +30,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Staropramen', en: 'Staropramen' }, 
         volume: '500 ml', 
         alcohol: '5.0%', 
-        price: '7,90 lei',
+        price: '8,90 lei',
         image: '/images/bere/staropramen.jpg',
         tags: ['recommended'] 
       },
@@ -38,7 +38,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Staropramen Draft', en: 'Staropramen Draft' }, 
         volume: '400 ml', 
         alcohol: '5.0%', 
-        price: '7,90 lei',
+        price: '8,90 lei',
         image: '/images/bere/staropramen-draft.jpg'
       },
       { 
