@@ -666,6 +666,14 @@ export const menuData: MenuSection[] = [
         tags: ['non-alcoholic', 'vegan'] 
       },
       { 
+        name: { ro: 'Limonadă ananas si Lamăie  ', en: 'Pineapple and Lemon' }, 
+        volume: '400 ml', 
+        description: { ro: '100g ananas, 25ml zeamă lamăie , 30 ml sirop zahăr, gheață, apă', en: '100g pineapple, 30ml lemon juice, 30ml sugar syrup , ice, water' },
+        price: '12,90 lei',
+        image: '/images/limonade-freshuri/pepene.jpg',
+        tags: ['non-alcoholic', 'vegan', 'new']
+      },
+      { 
         name: { ro: 'Limonadă portocale', en: 'Orange Lemonade' }, 
         volume: '400 ml', 
         description: { ro: '100 ml portocale, 30 ml sirop zahăr, gheață, apă', en: '100 ml orange juice, 30 ml sugar syrup, ice, water' },
