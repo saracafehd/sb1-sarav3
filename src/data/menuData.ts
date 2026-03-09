@@ -670,7 +670,7 @@ export const menuData: MenuSection[] = [
         volume: '400 ml', 
         description: { ro: '100g ananas, 25ml zeamă lamăie , 30 ml sirop zahăr, gheață, apă', en: '100g pineapple, 30ml lemon juice, 30ml sugar syrup , ice, water' },
         price: '12,90 lei',
-        image: '/images/limonade-freshuri/pepene.jpg',
+        image: '/images/limonade-freshuri/ananas.png',
         tags: ['non-alcoholic', 'vegan', 'new']
       },
       { 
