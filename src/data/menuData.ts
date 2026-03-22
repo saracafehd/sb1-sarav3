@@ -448,6 +448,34 @@ export const menuData: MenuSection[] = [
         image: '/images/bauturi-alcoolice/bacardi.jpg'
       },
       { 
+        name: { ro: 'Tatratea Outlaw', en: 'Tatratea Outlaw' }, 
+        volume: '50 ml', 
+        alcohol: '72%', 
+        price: '8,90 lei',
+        image: '/images/bauturi-alcoolice/outlaw.png'
+      },
+      { 
+        name: { ro: 'Tatratea Forest Fruits', en: 'Tatratea Forest Fruits' }, 
+        volume: '50 ml', 
+        alcohol: '62%', 
+        price: '8,90 lei',
+        image: '/images/bauturi-alcoolice/forest.png'
+      },
+      { 
+        name: { ro: 'Tatratea Original', en: 'Tatratea Original' }, 
+        volume: '50 ml', 
+        alcohol: '52%', 
+        price: '8,90 lei',
+        image: '/images/bauturi-alcoolice/original.png'
+      },
+      { 
+        name: { ro: 'Tatratea Coconut', en: 'Tatratea Coconut' }, 
+        volume: '50 ml', 
+        alcohol: '22%', 
+        price: '7,90 lei',
+        image: '/images/bauturi-alcoolice/coconut.png'
+      },
+      { 
         name: { ro: 'Gordon\'s Sicilian Lemon', en: 'Gordon\'s Sicilian Lemon' }, 
         volume: '50 ml', 
         alcohol: '40%', 
