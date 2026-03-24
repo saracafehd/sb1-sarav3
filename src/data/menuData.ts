@@ -45,8 +45,16 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Madri', en: 'Madri' }, 
         volume: '500 ml', 
         alcohol: '4.6%', 
-        price: '8,90 lei',
+        price: '9,90 lei',
         image: '/images/bere/madri.jpg',
+        tags: ['new'] 
+      },
+      { 
+        name: { ro: 'Madri Draft', en: 'Madri Draft' }, 
+        volume: '400 ml', 
+        alcohol: '4.6%', 
+        price: '9,90 lei',
+        image: '/images/bere/madridraft.png',
         tags: ['new'] 
       },
       { 
