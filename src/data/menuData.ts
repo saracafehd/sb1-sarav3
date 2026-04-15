@@ -130,79 +130,79 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Safe Cocktail Sara', en: 'Safe Cocktail Sara' }, 
         description: { ro: '250 ml aloe vera, gheață, 20 ml curacao blue, o felie portocală', en: '250 ml aloe vera, ice, 20 ml blue curacao, orange slice' },
-        price: '24,00 lei',
+        price: '27,00 lei',
         image: '/images/cocktailuri/safe-sara.jpg',
         tags: ['non-alcoholic', 'recommended']
       },
       { 
         name: { ro: 'Cocktail Sara', en: 'Cocktail Sara' }, 
         description: { ro: '50 ml vodka, 250 ml aloe vera, gheață, 20 ml curacao blue, felie portocală', en: '50 ml vodka, 250 ml aloe vera, ice, 20 ml blue curacao, orange slice' },
-        price: '24,00 lei',
+        price: '27,00 lei',
         image: '/images/cocktailuri/sara.jpg',
         tags: ['recommended']
       },
       { 
         name: { ro: 'Martini Red Kiss', en: 'Martini Red Kiss' }, 
         description: { ro: '10 ml sirop lămâie, 10 ml sirop căpșuni, 30 ml martini, 30 ml vodka', en: '10 ml lemon syrup, 10 ml strawberry syrup, 30 ml martini, 30 ml vodka' },
-        price: '24,00 lei',
+        price: '27,00 lei',
         image: '/images/cocktailuri/red-kiss.jpg'
       },
       { 
         name: { ro: 'Sex on the Beach', en: 'Sex on the Beach' }, 
         description: { ro: '50 ml vodka, 100 ml nectar portocale, 100 ml nectar ananas, grenadine', en: '50 ml vodka, 100 ml orange nectar, 100 ml pineapple nectar, grenadine' },
-        price: '24,00 lei',
+        price: '27,00 lei',
         image: '/images/cocktailuri/sex-on-the-beach.jpg',
         tags: ['recommended']
       },
       { 
         name: { ro: 'Gin Tonic', en: 'Gin Tonic' }, 
         description: { ro: '50 ml gin, 200 ml apă tonică', en: '50 ml gin, 200 ml tonic water' },
-        price: '24,00 lei',
+        price: '27,00 lei',
         image: '/images/cocktailuri/gin-tonic.jpg'
       },
       { 
         name: { ro: 'Cuba Libre', en: 'Cuba Libre' }, 
         description: { ro: '50 ml rom, 200 ml cola', en: '50 ml rum, 200 ml cola' },
-        price: '24,00 lei',
+        price: '27,00 lei',
         image: '/images/cocktailuri/cuba-libre.jpg'
       },
       { 
         name: { ro: 'Mojito', en: 'Mojito' }, 
         description: { ro: '50 ml bacardi, lime, mentă, zahăr brun, sprite', en: '50 ml bacardi, lime, mint, brown sugar, sprite' },
-        price: '24,00 lei',
+        price: '27,00 lei',
         image: '/images/cocktailuri/mojito.jpg',
         tags: ['recommended']
       },
       { 
         name: { ro: 'Tequila Sunrise', en: 'Tequila Sunrise' }, 
         description: { ro: '50 ml tequila, 200 ml portocale, grenadine', en: '50 ml tequila, 200 ml orange juice, grenadine' },
-        price: '24,00 lei',
+        price: '27,00 lei',
         image: '/images/cocktailuri/tequila-sunrise.jpg'
       },
       { 
         name: { ro: 'Caribbean Wonder', en: 'Caribbean Wonder' }, 
         description: { ro: '50 ml vodka, 200 ml suc ananas, 40 ml blue curacao, lapte, frișcă', en: '50 ml vodka, 200 ml pineapple juice, 40 ml blue curacao, milk, whipped cream' },
-        price: '24,00 lei',
+        price: '27,00 lei',
         image: '/images/cocktailuri/carribean-wonder.jpg'
       },
       { 
         name: { ro: 'Aperol Spritz', en: 'Aperol Spritz' }, 
         description: { ro: '150 ml vin spumant, 40 ml aperol, apă minerală, felie portocală', en: '150 ml sparkling wine, 40 ml aperol, mineral water, orange slice' },
-        price: '24,00 lei',
+        price: '27,00 lei',
         image: '/images/cocktailuri/aperol.jpg',
         tags: ['new']
       },
       { 
         name: { ro: 'Safe Sex on the Beach', en: 'Safe Sex on the Beach' }, 
         description: { ro: '100 ml suc portocale, 100 ml suc ananas, grenadine', en: '100 ml orange juice, 100 ml pineapple juice, grenadine' },
-        price: '24,00 lei',
+        price: '27,00 lei',
         image: '/images/cocktailuri/safe-sex.jpg',
         tags: ['non-alcoholic']
       },
       {
         name: { ro: 'Campari Orange', en: 'Campari Orange' }, 
         description: { ro: '50 ml campari, 250 ml suc portocale', en: '50 ml campari, 250 ml orange juice' },
-        price: '24,00 lei',
+        price: '27,00 lei',
         image: '/images/cocktailuri/campari-orange.jpg'
       }
     ]
@@ -681,7 +681,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Limonadă cu fructe de pădure', en: 'Forest Berries Lemonade' }, 
         volume: '400 ml', 
         description: { ro: '80g fructe, 30 ml sirop zahăr, gheață, apă', en: '80g berries, 30 ml sugar syrup, ice, water' },
-        price: '12,90 lei',
+        price: '13,90 lei',
         image: '/images/limonade-freshuri/fructe-padure.jpg',
         tags: ['non-alcoholic', 'vegan', 'recommended']
       },
@@ -689,7 +689,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Limonadă pepene galben', en: 'Yellow Melon Lemonade' }, 
         volume: '400 ml', 
         description: { ro: '200g pepene, 30 ml sirop zahăr, gheață, apă', en: '200g melon, 30 ml sugar syrup, ice, water' },
-        price: '12,90 lei',
+        price: '13,90 lei',
         image: '/images/limonade-freshuri/pepene.jpg',
         tags: ['non-alcoholic', 'vegan', 'new']
       },
@@ -697,7 +697,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Limonadă cu lămâie', en: 'Lemon Lemonade' }, 
         volume: '400 ml', 
         description: { ro: '50 ml suc lămâie, 30 ml sirop zahăr, gheață, apă', en: '50 ml lemon juice, 30 ml sugar syrup, ice, water' },
-        price: '12,90 lei',
+        price: '13,90 lei',
         image: '/images/limonade-freshuri/lamaie.jpg',
         tags: ['non-alcoholic', 'vegan'] 
       },
@@ -705,7 +705,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Limonadă ananas si Lamăie  ', en: 'Pineapple and Lemon' }, 
         volume: '400 ml', 
         description: { ro: '100g ananas, 25ml zeamă lamăie , 30 ml sirop zahăr, gheață, apă', en: '100g pineapple, 30ml lemon juice, 30ml sugar syrup , ice, water' },
-        price: '12,90 lei',
+        price: '13,90 lei',
         image: '/images/limonade-freshuri/ananas.png',
         tags: ['non-alcoholic', 'vegan', 'new']
       },
@@ -713,7 +713,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Limonadă portocale', en: 'Orange Lemonade' }, 
         volume: '400 ml', 
         description: { ro: '100 ml portocale, 30 ml sirop zahăr, gheață, apă', en: '100 ml orange juice, 30 ml sugar syrup, ice, water' },
-        price: '12,90 lei',
+        price: '13,90 lei',
         image: '/images/limonade-freshuri/portocale.jpg',
         tags: ['non-alcoholic', 'vegan'] 
       },
@@ -721,7 +721,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Limonadă lămâie + ghimbir', en: 'Lemon + Ginger Lemonade' }, 
         volume: '400 ml', 
         description: { ro: '50 ml suc lămâie, 30 ml sirop zahăr, gheață, apă, ghimbir', en: '50 ml lemon juice, 30 ml sugar syrup, ice, water, ginger' },
-        price: '12,90 lei',
+        price: '13,90 lei',
         image: '/images/limonade-freshuri/lamaie-ghimbir.jpg',
         tags: ['non-alcoholic', 'vegan'] 
       },
@@ -729,7 +729,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Limonadă lămâie + soc', en: 'Lemon + Elderflower Lemonade' }, 
         volume: '400 ml', 
         description: { ro: '50 ml suc lămâie, 30 ml sirop zahăr, gheață, apă și soc', en: '50 ml lemon juice, 30 ml sugar syrup, ice, water and elderflower' },
-        price: '12,90 lei',
+        price: '13,90 lei',
         image: '/images/limonade-freshuri/lamaie-soc.jpg',
         tags: ['non-alcoholic', 'vegan'] 
       },
@@ -849,7 +849,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Sandwich cu Șunca și Telemea ', en: 'Ham & Telemea sandwich' }, 
         volume: '200g',
         description: { ro: 'baton, margarină, telemea, șuncă, maioneză; (205G) Valori nutritionale medii 100g produs: Valoare energetica 1024 kj/245 kcal', en: 'baguette, margarine, telemea, ham, mayonnaise; (205G) Average nutritional values ​​100g product: Energy value 1024 kj/245 kcal' },
-        price: '13,00 lei',
+        price: '15,00 lei',
         image: '/images/fast-food/sandwich-sunca.jpg'
       },
       { 
