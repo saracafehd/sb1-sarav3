@@ -1044,6 +1044,13 @@ export const menuData: MenuSection[] = [
         image: '/images/vinuri-sampanie/lambrusco.jpg'
       },
       { 
+        name: { ro: 'Zarea Hugo', en: 'Zarea Hugo' }, 
+        volume: '750 ml', 
+        alcohol: '8.0%',
+        price: '44,00 lei',
+        image: '/images/vinuri-sampanie/hugo-go.png'
+      },
+      { 
         name: { ro: 'Șampanie', en: 'Champagne' }, 
         volume: '750 ml', 
         alcohol: '10%',
