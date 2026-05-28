@@ -992,10 +992,39 @@ export const menuData: MenuSection[] = [
     title: { ro: 'VINURI & ȘAMPANIE', en: 'WINES & CHAMPAGNE' },
     items: [
       { 
+        name: { ro: 'Vin Roșu, Alb, Roze', en: 'Red, White, Rosé Wine' }, 
+        volume: '200 ml', 
+        alcohol: '7.0%',
+        description: { ro: 'pahar (sec, demi-sec, demi-dulce)', en: 'glass (dry, semi-dry, semi-sweet)' },
+        price: '8,90 lei',
+        image: '/images/vinuri-sampanie/rosu-alb-roze.jpg'
+      },
+      { 
+        name: { ro: 'Vin fiert', en: 'Mulled Wine' }, 
+        volume: '200 ml', 
+        price: '8,90 lei',
+        image: '/images/vinuri-sampanie/vin-fiert.jpg',
+        tags: ['seasonal'] 
+      },
+      { 
         name: { ro: 'Castel Huniade', en: 'Castel Huniade' }, 
         volume: '187 ml', 
         price: '12,00 lei',
         image: '/images/vinuri-sampanie/castel-huniade.jpg'
+      },
+      { 
+        name: { ro: 'Lambrusco', en: 'Lambrusco' }, 
+        volume: '750 ml', 
+        alcohol: '7.5%',
+        price: '44,00 lei',
+        image: '/images/vinuri-sampanie/lambrusco.jpg'
+      },
+      { 
+        name: { ro: 'Zarea Hugo', en: 'Zarea Hugo' }, 
+        volume: '750 ml', 
+        alcohol: '8.0%',
+        price: '44,00 lei',
+        image: '/images/vinuri-sampanie/hugo-go.png'
       },
       { 
         name: { ro: 'Vin Jidvei', en: 'Wine Jidvei' }, 
@@ -1022,41 +1051,12 @@ export const menuData: MenuSection[] = [
         tags: ['new'] 
       },
       { 
-        name: { ro: 'Vin Roșu, Alb, Roze', en: 'Red, White, Rosé Wine' }, 
-        volume: '200 ml', 
-        alcohol: '7.0%',
-        description: { ro: 'pahar (sec, demi-sec, demi-dulce)', en: 'glass (dry, semi-dry, semi-sweet)' },
-        price: '8,90 lei',
-        image: '/images/vinuri-sampanie/rosu-alb-roze.jpg'
-      },
-      { 
-        name: { ro: 'Vin fiert', en: 'Mulled Wine' }, 
-        volume: '200 ml', 
-        price: '8,90 lei',
-        image: '/images/vinuri-sampanie/vin-fiert.jpg',
-        tags: ['seasonal'] 
-      },
-      { 
         name: { ro: 'Șampanie Gold', en: 'Gold Champagne' }, 
         volume: '750 ml', 
         alcohol: '11%',
         price: '65,00 lei',
         image: '/images/vinuri-sampanie/sampanie-gold.jpg',
         tags: ['premium'] 
-      },
-      { 
-        name: { ro: 'Lambrusco', en: 'Lambrusco' }, 
-        volume: '750 ml', 
-        alcohol: '7.5%',
-        price: '44,00 lei',
-        image: '/images/vinuri-sampanie/lambrusco.jpg'
-      },
-      { 
-        name: { ro: 'Zarea Hugo', en: 'Zarea Hugo' }, 
-        volume: '750 ml', 
-        alcohol: '8.0%',
-        price: '44,00 lei',
-        image: '/images/vinuri-sampanie/hugo-go.png'
       },
       { 
         name: { ro: 'Șampanie', en: 'Champagne' }, 
