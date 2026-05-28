@@ -22,7 +22,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Bergenbier', en: 'Bergenbier' }, 
         volume: '500 ml', 
         alcohol: '4.7%', 
-        price: '6,90 lei',
+        price: '7,90 lei',
         image: '/images/bere/bergenbier.jpg',
         tags: ['recommended'] 
       },
@@ -35,29 +35,6 @@ export const menuData: MenuSection[] = [
         tags: ['recommended'] 
       },
       { 
-        name: { ro: 'Staropramen Draft', en: 'Staropramen Draft' }, 
-        volume: '400 ml', 
-        alcohol: '5.0%', 
-        price: '8,90 lei',
-        image: '/images/bere/staropramen-draft.jpg'
-      },
-      { 
-        name: { ro: 'Madri', en: 'Madri' }, 
-        volume: '500 ml', 
-        alcohol: '4.6%', 
-        price: '9,90 lei',
-        image: '/images/bere/madri.jpg',
-        tags: ['new'] 
-      },
-      { 
-        name: { ro: 'Madri Draft', en: 'Madri Draft' }, 
-        volume: '400 ml', 
-        alcohol: '4.6%', 
-        price: '9,90 lei',
-        image: '/images/bere/madridraft.png',
-        tags: ['new'] 
-      },
-      { 
         name: { ro: 'Beck\'s', en: 'Beck\'s' }, 
         volume: '500 ml', 
         alcohol: '5.0%', 
@@ -65,11 +42,64 @@ export const menuData: MenuSection[] = [
         image: '/images/bere/becks.jpg'
       },
       { 
+        name: { ro: 'Madri', en: 'Madri' }, 
+        volume: '500 ml', 
+        alcohol: '4.6%', 
+        price: '10,90 lei',
+        image: '/images/bere/madri.jpg',
+        tags: ['new'] 
+      },
+      { 
+        name: { ro: 'Corona', en: 'Corona' }, 
+        volume: '335 ml', 
+        alcohol: '4.5%', 
+        price: '16,90 lei',
+        image: '/images/bere/corona.jpg',
+        tags: ['recommended'] 
+      },
+      { 
+        name: { ro: 'Staropramen Dark', en: 'Staropramen Dark' }, 
+        volume: '330 ml', 
+        alcohol: '5.0%', 
+        price: '11,90 lei',
+        image: '/images/bere/staropramen-dark.png',
+        tags: ['recommended'] 
+      },
+      { 
+        name: { ro: 'Stella Artois', en: 'Stella Artois' }, 
+        volume: '500/330 ml', 
+        alcohol: '5.0%', 
+        price: '11,90 lei',
+        image: '/images/bere/stella.jpg'
+      },
+      { 
+        name: { ro: 'Stella Artois fără alcool', en: 'Stella Artois Non-alcoholic' }, 
+        volume: '330 ml', 
+        price: '11,90 lei',
+        image: '/images/bere/stella-fara-alcol.jpg',
+        tags: ['non-alcoholic'] 
+      },
+      { 
+        name: { ro: 'Staropramen Draft', en: 'Staropramen Draft' }, 
+        volume: '400 ml', 
+        alcohol: '5.0%', 
+        price: '8,90 lei',
+        image: '/images/bere/staropramen-draft.jpg'
+      },
+      { 
         name: { ro: 'Beck\'s Draft', en: 'Beck\'s Draft' }, 
         volume: '400 ml', 
         alcohol: '4.7%', 
         price: '9,90 lei',
         image: '/images/bere/becks-draft.jpg'
+      },
+      { 
+        name: { ro: 'Madri Draft', en: 'Madri Draft' }, 
+        volume: '400 ml', 
+        alcohol: '4.6%', 
+        price: '10,90 lei',
+        image: '/images/bere/madridraft.png',
+        tags: ['new'] 
       },
       { 
         name: { ro: 'Strongbow', en: 'Strongbow' }, 
@@ -91,28 +121,6 @@ export const menuData: MenuSection[] = [
         price: '9,90 lei',
         image: '/images/bere/fresh-lamaie.jpg',
         tags: ['non-alcoholic'] 
-      },
-      { 
-        name: { ro: 'Stella Artois fără alcool', en: 'Stella Artois Non-alcoholic' }, 
-        volume: '330 ml', 
-        price: '11,90 lei',
-        image: '/images/bere/stella-fara-alcol.jpg',
-        tags: ['non-alcoholic'] 
-      },
-      { 
-        name: { ro: 'Stella Artois', en: 'Stella Artois' }, 
-        volume: '500/330 ml', 
-        alcohol: '5.0%', 
-        price: '11,90 lei',
-        image: '/images/bere/stella.jpg'
-      },
-      { 
-        name: { ro: 'Corona', en: 'Corona' }, 
-        volume: '335 ml', 
-        alcohol: '4.5%', 
-        price: '16,90 lei',
-        image: '/images/bere/corona.jpg',
-        tags: ['recommended'] 
       },
       { 
         name: { ro: 'Hugo', en: 'Hugo' }, 
@@ -370,6 +378,14 @@ export const menuData: MenuSection[] = [
         alcohol: '15%', 
         price: '6,90 lei',
         image: '/images/bauturi-alcoolice/martini.jpg'
+      },
+      { 
+        name: { ro: 'Cinzano alb', en: 'Cinzano White' }, 
+        volume: '50 ml', 
+        alcohol: '15%', 
+        price: '6,90 lei',
+        image: '/images/vinuri-sampanie/cinzano-alb.jpg',
+        tags: ['recommended'] 
       },
       { 
         name: { ro: 'Angelli', en: 'Angelli' }, 
@@ -975,14 +991,6 @@ export const menuData: MenuSection[] = [
   {
     title: { ro: 'VINURI & ȘAMPANIE', en: 'WINES & CHAMPAGNE' },
     items: [
-      { 
-        name: { ro: 'Cinzano alb', en: 'Cinzano White' }, 
-        volume: '50 ml', 
-        alcohol: '15%', 
-        price: '6,90 lei',
-        image: '/images/vinuri-sampanie/cinzano-alb.jpg',
-        tags: ['recommended'] 
-      },
       { 
         name: { ro: 'Castel Huniade', en: 'Castel Huniade' }, 
         volume: '187 ml', 
