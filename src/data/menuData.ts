@@ -60,7 +60,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Staropramen Dark', en: 'Staropramen Dark' }, 
         volume: '330 ml', 
-        alcohol: '5.0%', 
+        alcohol: '4.4%', 
         price: '11,90 lei',
         image: '/images/bere/staropramen-dark.png',
         tags: ['recommended'] 
