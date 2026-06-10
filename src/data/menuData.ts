@@ -50,6 +50,13 @@ export const menuData: MenuSection[] = [
         tags: ['new'] 
       },
       { 
+        name: { ro: 'Stella Artois', en: 'Stella Artois' }, 
+        volume: '500 ml', 
+        alcohol: '5.0%', 
+        price: '11,90 lei',
+        image: '/images/bere/stella.jpg'
+      },
+      { 
         name: { ro: 'Corona', en: 'Corona' }, 
         volume: '335 ml', 
         alcohol: '4.5%', 
@@ -67,7 +74,7 @@ export const menuData: MenuSection[] = [
       },
       { 
         name: { ro: 'Stella Artois', en: 'Stella Artois' }, 
-        volume: '500/330 ml', 
+        volume: '330 ml', 
         alcohol: '5.0%', 
         price: '11,90 lei',
         image: '/images/bere/stella.jpg'
