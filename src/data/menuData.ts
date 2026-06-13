@@ -65,11 +65,11 @@ export const menuData: MenuSection[] = [
         tags: ['recommended'] 
       },
       { 
-        name: { ro: 'Staropramen Dark', en: 'Staropramen Dark' }, 
+        name: { ro: 'Leffe', en: 'Leffe' }, 
         volume: '330 ml', 
-        alcohol: '4.4%', 
-        price: '11,90 lei',
-        image: '/images/bere/staropramen-dark.png',
+        alcohol: '6.5%', 
+        price: '14,90 lei',
+        image: '/images/bere/leffe.png',
         tags: ['recommended'] 
       },
       { 
