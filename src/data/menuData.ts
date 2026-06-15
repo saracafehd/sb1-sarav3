@@ -68,7 +68,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Leffe', en: 'Leffe' }, 
         volume: '330 ml', 
         alcohol: '6.5%', 
-        price: '15,90 lei',
+        price: '16,90 lei',
         image: '/images/bere/leffe.png',
         tags: ['recommended'] 
       },
