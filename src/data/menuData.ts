@@ -140,7 +140,6 @@ export const menuData: MenuSection[] = [
   },
   {
     title: { ro: 'COCKTAILURI', en: 'COCKTAILS' },
-    note: { ro: 'Fiecare cocktail – 24,00 lei', en: 'Each cocktail – 24,00 lei' },
     items: [
       { 
         name: { ro: 'Safe Cocktail Sara', en: 'Safe Cocktail Sara' }, 
