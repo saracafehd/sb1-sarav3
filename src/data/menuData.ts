@@ -170,13 +170,13 @@ export const menuData: MenuSection[] = [
       },
       { 
         name: { ro: 'Gin Tonic', en: 'Gin Tonic' }, 
-        description: { ro: '50 ml gin, 200 ml apă tonică', en: '50 ml gin, 200 ml tonic water' },
+        description: { ro: '50 ml gin, 200 ml schwepes', en: '50 ml gin, 200 ml schwepes' },
         price: '27,00 lei',
         image: '/images/cocktailuri/gin-tonic.jpg'
       },
       { 
         name: { ro: 'Cuba Libre', en: 'Cuba Libre' }, 
-        description: { ro: '50 ml rom, 200 ml cola', en: '50 ml rum, 200 ml cola' },
+        description: { ro: '50 ml rom, 200 ml coca cola', en: '50 ml rum, 200 ml coca cola' },
         price: '27,00 lei',
         image: '/images/cocktailuri/cuba-libre.jpg'
       },
