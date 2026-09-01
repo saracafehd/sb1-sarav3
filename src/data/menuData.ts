@@ -165,7 +165,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Sex on the Beach', en: 'Sex on the Beach' }, 
         description: { ro: '50 ml vodka, 100 ml nectar portocale, 100 ml nectar ananas, grenadine', en: '50 ml vodka, 100 ml orange nectar, 100 ml pineapple nectar, grenadine' },
         price: '27,00 lei',
-        image: '/images/cocktailuri/sex-on-the-beach.jpg',
+        image: '/images/cocktailuri/sex-on-the-beachz.jpg',
         tags: ['recommended']
       },
       { 
@@ -184,20 +184,20 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Mojito', en: 'Mojito' }, 
         description: { ro: '50 ml bacardi, lime, mentă, zahăr brun, sprite', en: '50 ml bacardi, lime, mint, brown sugar, sprite' },
         price: '27,00 lei',
-        image: '/images/cocktailuri/mojito.jpg',
+        image: '/images/cocktailuri/mojitoz.jpg',
         tags: ['recommended']
       },
       { 
         name: { ro: 'Tequila Sunrise', en: 'Tequila Sunrise' }, 
         description: { ro: '50 ml tequila, 200 ml portocale, grenadine', en: '50 ml tequila, 200 ml orange juice, grenadine' },
         price: '27,00 lei',
-        image: '/images/cocktailuri/tequila-sunrise.jpg'
+        image: '/images/cocktailuri/tequila-sunrisez.jpg'
       },
       { 
         name: { ro: 'Caribbean Wonder', en: 'Caribbean Wonder' }, 
         description: { ro: '50 ml vodka, 200 ml suc ananas, 40 ml blue curacao, lapte, frișcă', en: '50 ml vodka, 200 ml pineapple juice, 40 ml blue curacao, milk, whipped cream' },
         price: '27,00 lei',
-        image: '/images/cocktailuri/carribean-wonder.jpg'
+        image: '/images/cocktailuri/carribean-wonderz.jpg'
       },
       { 
         name: { ro: 'Aperol Spritz', en: 'Aperol Spritz' }, 
@@ -210,14 +210,14 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Safe Sex on the Beach', en: 'Safe Sex on the Beach' }, 
         description: { ro: '100 ml suc portocale, 100 ml suc ananas, grenadine', en: '100 ml orange juice, 100 ml pineapple juice, grenadine' },
         price: '27,00 lei',
-        image: '/images/cocktailuri/safe-sex.jpg',
+        image: '/images/cocktailuri/safe-sexz.jpg',
         tags: ['non-alcoholic']
       },
       {
         name: { ro: 'Campari Orange', en: 'Campari Orange' }, 
         description: { ro: '50 ml campari, 250 ml suc portocale', en: '50 ml campari, 250 ml orange juice' },
         price: '27,00 lei',
-        image: '/images/cocktailuri/campari-orange.jpg'
+        image: '/images/cocktailuri/campari-orangez.jpg'
       }
     ]
   },
