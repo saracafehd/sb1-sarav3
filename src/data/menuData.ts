@@ -330,7 +330,7 @@ export const menuData: MenuSection[] = [
       },
       { 
         name: { ro: 'Moccacino', en: 'Moccacino' }, 
-        volume: '180 ml', 
+        volume: '160 ml', 
         description: { ro: 'topping ciocolată, cafea, bautura din lapte, frișcă', en: 'chocolate topping, coffee, milk drink, whipped cream' },
         price: '10,90 lei',
         image: '/images/specialitati-din-cafea/moccacino.jpg',
@@ -338,7 +338,7 @@ export const menuData: MenuSection[] = [
       },
       { 
         name: { ro: 'Latte', en: 'Latte' }, 
-        volume: '180 ml', 
+        volume: '160 ml', 
         description: { ro: 'cafea, zahăr, spumă, bautura din lapte', en: 'coffee, sugar, foam, milk drink' },
         price: '10,90 lei',
         image: '/images/specialitati-din-cafea/latte.jpg',
@@ -362,7 +362,7 @@ export const menuData: MenuSection[] = [
       },
       { 
         name: { ro: 'Decaf Latte', en: 'Decaf Latte' }, 
-        volume: '180 ml', 
+        volume: '160 ml', 
         description: { ro: 'cafea, zahăr, bautura din lapte', en: 'coffee, sugar, milk drink' },
         price: '11,90 lei',
         image: '/images/specialitati-din-cafea/decaf-latte.jpg',
