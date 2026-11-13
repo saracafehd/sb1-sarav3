@@ -252,7 +252,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Cappuccino Italian', en: 'Italian Cappuccino' }, 
         volume: '120 ml', 
         description: { ro: 'cafea, zahăr, spumă, bautura din lapte', en: 'coffee, sugar, foam, drink from milk drink' },
-        price: '11,90 lei',
+        price: '10,90 lei',
         image: '/images/specialitati-din-cafea/cappuccino-italian.jpg',
         tags: ['non-alcoholic', 'recommended'] 
       },
@@ -260,7 +260,7 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Cappuccino Vienez', en: 'Viennese Cappuccino' }, 
         volume: '120 ml', 
         description: { ro: 'cafea, zahăr, frișcă', en: 'coffee, sugar, whipped cream' },
-        price: '11,90 lei',
+        price: '10,90 lei',
         image: '/images/specialitati-din-cafea/cappuccino-vienez.jpg',
         tags: ['non-alcoholic'] 
       },
