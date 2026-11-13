@@ -227,7 +227,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Espresso', en: 'Espresso' }, 
         volume: '30 ml', 
-        description: { ro: 'cafea, zahăr, lapte', en: 'coffee, sugar, milk' },
+        description: { ro: 'cafea, zahăr, lapte', en: 'coffee, sugar, milk drink' },
         price: '6,90 lei',
         image: '/images/specialitati-din-cafea/espresso.jpg',
         tags: ['non-alcoholic', 'recommended'] 
@@ -235,7 +235,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Espresso lung', en: 'Long Espresso' }, 
         volume: '60 ml', 
-        description: { ro: 'cafea, zahăr, lapte', en: 'coffee, sugar, milk' },
+        description: { ro: 'cafea, zahăr, bautura din lapte', en: 'coffee, sugar, milk drink' },
         price: '6,90 lei',
         image: '/images/specialitati-din-cafea/espresso-lung.jpg',
         tags: ['non-alcoholic'] 
@@ -243,7 +243,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Espresso dublu', en: 'Double Espresso' }, 
         volume: '60 ml', 
-        description: { ro: 'cafea, zahăr, lapte', en: 'coffee, sugar, milk' },
+        description: { ro: 'cafea, zahăr, bautura din lapte', en: 'coffee, sugar, milk drink' },
         price: '13,80 lei',
         image: '/images/specialitati-din-cafea/espresso-dublu.jpg',
         tags: ['non-alcoholic'] 
@@ -251,8 +251,8 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Cappuccino Italian', en: 'Italian Cappuccino' }, 
         volume: '120 ml', 
-        description: { ro: 'cafea, zahăr, spumă lapte', en: 'coffee, sugar, milk foam' },
-        price: '9,90 lei',
+        description: { ro: 'cafea, zahăr, spumă, bautura din lapte', en: 'coffee, sugar, foam, drink from milk drink' },
+        price: '11,90 lei',
         image: '/images/specialitati-din-cafea/cappuccino-italian.jpg',
         tags: ['non-alcoholic', 'recommended'] 
       },
@@ -260,46 +260,110 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Cappuccino Vienez', en: 'Viennese Cappuccino' }, 
         volume: '120 ml', 
         description: { ro: 'cafea, zahăr, frișcă', en: 'coffee, sugar, whipped cream' },
-        price: '9,90 lei',
+        price: '11,90 lei',
         image: '/images/specialitati-din-cafea/cappuccino-vienez.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
+        name: { ro: 'Cappucino Amareto', en: 'Cappucino Amareto' }, 
+        volume: '180 ml', 
+        description: { ro: 'cafea, zahăr, spumă, bautura din lapte, sirop amareto', en: 'coffee, sugar,foam,milk drink, amareto syrup' },
+        price: '13,90 lei',
+        image: '/images/specialitati-din-cafea/cafea-arome.png',
+        tags: ['non-alcoholic', 'recommended'] 
+      },
+      { 
+        name: { ro: 'Cappucino Caramel', en: 'Caramel Cappucino' }, 
+        volume: '180 ml', 
+        description: { ro: 'cafea, zahăr, spumă, bautura din lapte, sirop caramel', en: 'coffee, sugar,foam,milk drink, caramel syrup' },
+        price: '13,90 lei',
+        image: '/images/specialitati-din-cafea/cafea-arome.png',
+        tags: ['non-alcoholic', 'recommended'] 
+      },
+      { 
+        name: { ro: 'Cappucino Fistic', en: 'Cappucino Pistachio' }, 
+        volume: '180 ml', 
+        description: { ro: 'cafea, zahăr, spumă, bautura din lapte, sirop fistic', en: 'coffee, sugar,foam,milk drink, syrop pistachio' },
+        price: '13,90 lei',
+        image: '/images/specialitati-din-cafea/cafea-arome.png',
+        tags: ['non-alcoholic', 'recommended'] 
+      },
+      { 
+        name: { ro: 'Cappucino Turta Dulce', en: 'Cappucino Gingerbread' }, 
+        volume: '180 ml', 
+        description: { ro: 'cafea, zahăr, spumă, bautura din lapte, sirop turta dulce', en: 'coffee, sugar,foam,milk drink, gingerbread syrup' },
+        price: '13,90 lei',
+        image: '/images/specialitati-din-cafea/cafea-arome.png',
+        tags: ['non-alcoholic', 'recommended'] 
+      },
+      { 
+        name: { ro: 'Latte Amaretto', en: 'Latte Amaretto' }, 
+        volume: '180 ml', 
+        description: { ro: 'cafea, zahăr, spumă, bautura din lapte, sirop amareto', en: 'coffee, sugar,foam,milk drink, amareto syrup' },
+        price: '13,90 lei',
+        image: '/images/specialitati-din-cafea/latte.jpg',
+        tags: ['non-alcoholic', 'recommended'] 
+      },
+      { 
+        name: { ro: 'Latte Caramel', en: 'Latte Caramel' }, 
+        volume: '180 ml', 
+        description: { ro: 'cafea, zahăr, spumă, bautura din lapte, sirop caramel', en: 'coffee, sugar,foam,milk drink, caramel syrup' },
+        price: '13,90 lei',
+        image: '/images/specialitati-din-cafea/latte.jpg',
+        tags: ['non-alcoholic', 'recommended'] 
+      },
+      { 
+        name: { ro: 'Latte Fistic', en: 'Latte Pistachio' }, 
+        volume: '180 ml', 
+        description: { ro: 'cafea, zahăr, spumă, bautura din lapte, sirop fistic', en: 'coffee, sugar,foam,milk drink, pistachio syrup' },
+        price: '13,90 lei',
+        image: '/images/specialitati-din-cafea/latte.jpg',
+        tags: ['non-alcoholic', 'recommended'] 
+      },
+      { 
+        name: { ro: 'Latte Turta Dulce', en: 'Latte Gingerbread' }, 
+        volume: '180 ml', 
+        description: { ro: 'cafea, zahăr, spumă, bautura din lapte, sirop turta dulce', en: 'coffee, sugar,foam,milk drink, gingerbread syrup' },
+        price: '13,90 lei',
+        image: '/images/specialitati-din-cafea/latte.jpg',
+        tags: ['non-alcoholic', 'recommended'] 
+      },
+      { 
         name: { ro: 'Moccacino', en: 'Moccacino' }, 
-        volume: '150 ml', 
-        description: { ro: 'topping ciocolată, cafea, lapte, frișcă', en: 'chocolate topping, coffee, milk, whipped cream' },
-        price: '9,90 lei',
+        volume: '180 ml', 
+        description: { ro: 'topping ciocolată, cafea, bautura din lapte, frișcă', en: 'chocolate topping, coffee, milk drink, whipped cream' },
+        price: '10,90 lei',
         image: '/images/specialitati-din-cafea/moccacino.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
         name: { ro: 'Latte', en: 'Latte' }, 
-        volume: '120 ml', 
-        description: { ro: 'cafea, zahăr, spumă lapte', en: 'coffee, sugar, milk foam' },
-        price: '9,90 lei',
+        volume: '180 ml', 
+        description: { ro: 'cafea, zahăr, spumă, bautura din lapte', en: 'coffee, sugar, foam, milk drink' },
+        price: '10,90 lei',
         image: '/images/specialitati-din-cafea/latte.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
         name: { ro: 'Decaf Cafea', en: 'Decaf Coffee' }, 
         volume: '60 ml', 
-        description: { ro: 'cafea, zahăr, lapte', en: 'coffee, sugar, milk' },
-        price: '8,90 lei',
+        description: { ro: 'cafea, zahăr, bautura din lapte', en: 'coffee, sugar, milk drink' },
+        price: '9,90 lei',
         image: '/images/specialitati-din-cafea/decaf-cafea.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
         name: { ro: 'Decaf Cappuccino', en: 'Decaf Cappuccino' }, 
         volume: '120 ml', 
-        description: { ro: 'cafea, zahăr, frișcă, lapte', en: 'coffee, sugar, whipped cream, milk' },
+        description: { ro: 'cafea, zahăr, frișcă, bautura din lapte', en: 'coffee, sugar, whipped cream, milk drink' },
         price: '11,90 lei',
         image: '/images/specialitati-din-cafea/decaf-cappuccino.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
         name: { ro: 'Decaf Latte', en: 'Decaf Latte' }, 
-        volume: '120 ml', 
-        description: { ro: 'cafea, zahăr, lapte', en: 'coffee, sugar, milk' },
+        volume: '180 ml', 
+        description: { ro: 'cafea, zahăr, bautura din lapte', en: 'coffee, sugar, milk drink' },
         price: '11,90 lei',
         image: '/images/specialitati-din-cafea/decaf-latte.jpg',
         tags: ['non-alcoholic'] 
@@ -307,8 +371,8 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Ice Coffee', en: 'Ice Coffee' }, 
         volume: '120 ml', 
-        description: { ro: 'cafea, gheață, lapte, frișcă', en: 'coffee, ice, milk, whipped cream' },
-        price: '9,90 lei',
+        description: { ro: 'cafea, gheață, bautura din lapte, frișcă', en: 'coffee, ice, milk drink, whipped cream' },
+        price: '10,90 lei',
         image: '/images/specialitati-din-cafea/ice-coffe.jpg',
         tags: ['non-alcoholic'] 
       }
@@ -320,23 +384,23 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Frappe fără cofeină', en: 'Decaf Frappe' }, 
         volume: '350 ml', 
-        description: { ro: 'cafea, lapte, frișcă, înghețată', en: 'coffee, milk, whipped cream, ice cream' },
-        price: '15,90 lei',
+        description: { ro: 'cafea, bautura din lapte, frișcă, înghețată', en: 'coffee, milk drink, whipped cream, ice cream' },
+        price: '16,90 lei',
         image: '/images/specialitati/frape-fara-cofeina.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
         name: { ro: 'Frappe Cafea', en: 'Coffee Frappe' }, 
         volume: '350 ml', 
-        description: { ro: 'cafea, lapte, frișcă, înghețată', en: 'coffee, milk, whipped cream, ice cream' },
-        price: '12,90 lei',
+        description: { ro: 'cafea, bautura din lapte, frișcă, înghețată', en: 'coffee, milk drink, whipped cream, ice cream' },
+        price: '13,90 lei',
         image: '/images/specialitati/frape-cafea.jpg',
         tags: ['non-alcoholic'] 
       },
       { 
         name: { ro: 'Frappe Fructe', en: 'Fruit Frappe' }, 
         volume: '350 ml', 
-        description: { ro: 'lapte, pireu fructe, înghețată, frișcă', en: 'milk, fruit puree, ice cream, whipped cream' },
+        description: { ro: 'bautura din lapte, pireu fructe, înghețată, frișcă', en: 'milk, fruit puree, ice cream, whipped cream' },
         price: '12,90 lei',
         image: '/images/specialitati/frape-fructe.jpg',
         tags: ['non-alcoholic'] 
@@ -344,7 +408,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Frappe Ciocolată', en: 'Chocolate Frappe' }, 
         volume: '350 ml', 
-        description: { ro: 'lapte, sirop, frișcă', en: 'milk, syrup, whipped cream' },
+        description: { ro: 'bautura din lapte, sirop, frișcă', en: 'milk, syrup, whipped cream' },
         price: '12,90 lei',
         image: '/images/specialitati/frape-ciocolata.jpg',
         tags: ['non-alcoholic'] 
@@ -352,7 +416,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Frappe Vanilie', en: 'Vanilla Frappe' }, 
         volume: '350 ml', 
-        description: { ro: 'lapte, sirop, frișcă', en: 'milk, syrup, whipped cream' },
+        description: { ro: 'bautura din lapte, sirop, frișcă', en: 'milk, syrup, whipped cream' },
         price: '12,90 lei',
         image: '/images/specialitati/frape-vanilie.jpg',
         tags: ['non-alcoholic'] 
@@ -360,7 +424,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Milkshake', en: 'Milkshake' }, 
         volume: '250 ml', 
-        description: { ro: 'sirop diferite arome, lapte, gheață (Căpșuni • Fructe de Pădure • Mere)', en: 'different flavor syrups, milk, ice (Strawberry • Forest Berries • Apple)' },
+        description: { ro: 'sirop diferite arome, bautura din lapte, gheață (Căpșuni • Fructe de Pădure • Mere)', en: 'different flavor syrups, milk drink, ice (Strawberry • Forest Berries • Apple)' },
         price: '10,90 lei',
         image: '/images/specialitati/milkshake.jpg',
         tags: ['non-alcoholic'] 
@@ -368,7 +432,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Smoothie', en: 'Smoothie' }, 
         volume: '300 ml', 
-        description: { ro: 'lapte, gheață, iaurt, căpșuni, căpșuni&banane (Mango • Fructul Pasiunii&Kiwi • Vanilie)', en: 'milk, ice, yogurt, strawberries, strawberries&bananas (Mango • Passion Fruit&Kiwi • Vanilla)' },
+        description: { ro: 'bautura din lapte, gheață, iaurt, căpșuni, căpșuni&banane (Mango • Fructul Pasiunii&Kiwi • Vanilie)', en: 'milk drink, ice, yogurt, strawberries, strawberries&bananas (Mango • Passion Fruit&Kiwi • Vanilla)' },
         price: '13,90 lei',
         image: '/images/specialitati/smoothie.jpg',
         tags: ['non-alcoholic', 'vegan'] 
@@ -915,7 +979,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Gold Classic', en: 'Gold Classic' }, 
         volume: '300 ml', 
-        description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
+        description: { ro: 'bautura din lapte, ciocolată, frișcă', en: 'milk drink, chocolate, whipped cream' },
         price: '10,90 lei',
         image: '/images/specialitati-din-ciocolata/gold-clasic.jpg',
         tags: ['non-alcoholic', 'recommended'] 
@@ -923,7 +987,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Aromă Portocale + Scorțișoară', en: 'Orange + Cinnamon' }, 
         volume: '300 ml', 
-        description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
+        description: { ro: 'bautura din lapte, ciocolată, frișcă', en: 'milk drink, chocolate, whipped cream' },
         price: '10,90 lei',
         image: '/images/specialitati-din-ciocolata/portocale-scortisoara.jpg',
         tags: ['non-alcoholic'] 
@@ -931,7 +995,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Neagră + Aromă Alune', en: 'Dark + Nuts' }, 
         volume: '300 ml', 
-        description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
+        description: { ro: 'bautura din lapte, ciocolată, frișcă', en: 'milk drink, chocolate, whipped cream' },
         price: '10,90 lei',
         image: '/images/specialitati-din-ciocolata/neagra-alune.jpg',
         tags: ['non-alcoholic'] 
@@ -939,7 +1003,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Aromă Cocos', en: 'Coconut' }, 
         volume: '300 ml', 
-        description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
+        description: { ro: 'bautura din lapte, ciocolată, frișcă', en: 'milk drink, chocolate, whipped cream' },
         price: '10,90 lei',
         image: '/images/specialitati-din-ciocolata/cocos.jpg',
         tags: ['non-alcoholic'] 
@@ -947,7 +1011,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Aromă Rom și Praline', en: 'Rum & Praline' }, 
         volume: '300 ml', 
-        description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
+        description: { ro: 'bautura din lapte, ciocolată, frișcă', en: 'milk drink, chocolate, whipped cream' },
         price: '10,90 lei',
         image: '/images/specialitati-din-ciocolata/gold-clasic.jpg',
         tags: ['non-alcoholic'] 
@@ -955,7 +1019,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Albă', en: 'White' }, 
         volume: '300 ml', 
-        description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
+        description: { ro: 'bautura din lapte, ciocolată, frișcă', en: 'milk drink, chocolate, whipped cream' },
         price: '10,90 lei',
         image: '/images/specialitati-din-ciocolata/alba.jpg',
         tags: ['non-alcoholic'] 
@@ -963,7 +1027,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Aromă Mentă', en: 'Mint' }, 
         volume: '300 ml', 
-        description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
+        description: { ro: 'bautura din lapte, ciocolată, frișcă', en: 'milk drink, chocolate, whipped cream' },
         price: '10,90 lei',
         image: '/images/specialitati-din-ciocolata/neagra-menta.jpg',
         tags: ['non-alcoholic'] 
@@ -971,7 +1035,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Neagră + Aromă Căpșuni', en: 'Dark + Strawberry' }, 
         volume: '300 ml', 
-        description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
+        description: { ro: 'bautura din lapte, ciocolată, frișcă', en: 'milk drink, chocolate, whipped cream' },
         price: '10,90 lei',
         image: '/images/specialitati-din-ciocolata/neagra-capsuni.jpg',
         tags: ['non-alcoholic'] 
@@ -979,7 +1043,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Albă cu Aromă Alune', en: 'White with Nuts' }, 
         volume: '300 ml', 
-        description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
+        description: { ro: 'bautura din lapte, ciocolată, frișcă', en: 'milk drink, chocolate, whipped cream' },
         price: '10,90 lei',
         image: '/images/specialitati-din-ciocolata/alba-alune.jpg',
         tags: ['non-alcoholic'] 
@@ -987,7 +1051,7 @@ export const menuData: MenuSection[] = [
       { 
         name: { ro: 'Budincă', en: 'Pudding' }, 
         volume: '300 ml', 
-        description: { ro: 'lapte, ciocolată, frișcă', en: 'milk, chocolate, whipped cream' },
+        description: { ro: 'bautura din lapte, ciocolată, frișcă', en: 'milk drink, chocolate, whipped cream' },
         price: '11,90 lei',
         image: '/images/specialitati-din-ciocolata/budinca.jpg',
         tags: ['non-alcoholic'] 
