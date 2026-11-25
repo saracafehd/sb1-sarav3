@@ -297,6 +297,14 @@ export const menuData: MenuSection[] = [
         tags: ['non-alcoholic', 'recommended'] 
       },
       { 
+        name: { ro: 'Cappucino Chocolate Cookie', en: 'Cappucino Chocolate cookie' }, 
+        volume: '180 ml', 
+        description: { ro: 'cafea, zahăr, spumă, bautura din lapte, sirop chocolate cookie', en: 'coffee, sugar,foam,milk drink, syrop chocolate cookie' },
+        price: '13,90 lei',
+        image: '/images/specialitati-din-cafea/cafea-arome.png',
+        tags: ['non-alcoholic', 'recommended'] 
+      },
+      { 
         name: { ro: 'Latte Amaretto', en: 'Latte Amaretto' }, 
         volume: '180 ml', 
         description: { ro: 'cafea, zahăr, spumă, bautura din lapte, sirop amareto', en: 'coffee, sugar,foam,milk drink, amareto syrup' },
@@ -324,6 +332,14 @@ export const menuData: MenuSection[] = [
         name: { ro: 'Latte Turta Dulce', en: 'Latte Gingerbread' }, 
         volume: '180 ml', 
         description: { ro: 'cafea, zahăr, spumă, bautura din lapte, sirop turta dulce', en: 'coffee, sugar,foam,milk drink, gingerbread syrup' },
+        price: '13,90 lei',
+        image: '/images/specialitati-din-cafea/latte.jpg',
+        tags: ['non-alcoholic', 'recommended'] 
+      },
+      { 
+        name: { ro: 'Latte Chocolate Cookie', en: 'Latte Chocolate Cookie' }, 
+        volume: '180 ml', 
+        description: { ro: 'cafea, zahăr, spumă, bautura din lapte, sirop chocolate cookie', en: 'coffee, sugar,foam,milk drink, chocolate cookie syrup' },
         price: '13,90 lei',
         image: '/images/specialitati-din-cafea/latte.jpg',
         tags: ['non-alcoholic', 'recommended'] 
